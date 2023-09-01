@@ -1,0 +1,51 @@
+img {
+    position: absolute;
+    margin-left: 630px;
+    display: inline-block;
+    height: 60px;
+    margin-top: 29px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 360px;
+    margin-left: 670px;
+    flex-wrap: wrap;
+    column-gap: 3px;
+    row-gap: 4px;
+}
+
+.container>* {
+    width: 31.33%;
+    /* we can set the width as well instead of flex basis  */
+    height: 120px;
+    border: 1px solid black;
+    line-height: 120px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#Next-player-msg {
+    text-align: center;
+    font-size: 34px;
+    float: left;
+    margin-left: 670px;
+    margin-top: 12px;
+}
+
+#reset {
+    float: right;
+    margin-right: 550px;
+    margin-top: 12px;
+    width: 120px;
+    height: 33px;
+}
